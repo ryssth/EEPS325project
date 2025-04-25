@@ -45,9 +45,9 @@ initial_co2_ppm = st.sidebar.slider("Initial CO₂ Concentration (ppm)", 300.0, 
 st.sidebar.header("Geoengineering Options")
 start_geo = st.sidebar.slider("Geoengineering Start Year", 0, 1000, 10)
 end_geo = st.sidebar.slider("Geoengineering End Year", 0, 1000, 70)
-injection_rate = st.sidebar.slider("Injection Rate", 0.0, 1, 0.01)
-decay_rate = st.sidebar.slider("Decay Rate", 0.0, 1, 0.001)
-max_effect = st.sidebar.slider("Max Albedo Effect", 0.0, 1, 0.01)
+injection_rate = st.sidebar.slider("Injection Rate", 0.0, 1.0, 0.01)
+decay_rate = st.sidebar.slider("Decay Rate", 0.0, 1.0, 0.001)
+max_effect = st.sidebar.slider("Max Albedo Effect", 0.0, 1.0, 0.01)
 
 # === Initial Planetary State ===
 planet_state = {
