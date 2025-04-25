@@ -17,9 +17,7 @@ Original file is located at
 #To identify the baseline values for the simulation, I searched academic literature for the values of variables
 #Scan the barcode here to mess around with the simulation on your phone! I challenge you to cause a runaway greenhouse effect without changing the amount of energy the sun emits!
 
-!pip install streamlit
 
-# save this as app.py
 
 import streamlit as st
 import numpy as np
